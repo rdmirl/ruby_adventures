@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
+
     <title>Flix</title>
+    <%= render 'nav_components/navbar' %>
+    <%= render 'nav_components/sidebar' %>
     <%= csrf_meta_tags %>
 
+    
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
+
   </head>
 
   <body>
