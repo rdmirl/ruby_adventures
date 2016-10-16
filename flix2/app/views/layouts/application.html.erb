@@ -1,22 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Jams</title>
+    <title>Flix2</title>
     <%= csrf_meta_tags %>
 
-<!--
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
--->
-
   </head>
 
   <body>
-  	<%= render 'nav_components/topnav' %>
-  	<%= render 'nav_components/sidenav' %>
-    <div id="content">
-      <%= render 'shared_html/inline_css_content_body' %>
-    	<%= yield %>
-  	</div>
+    <%= yield %>
   </body>
 </html>

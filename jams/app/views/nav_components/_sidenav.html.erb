@@ -1,0 +1,65 @@
+<style type="text/css">
+ /* The side navigation menu */
+.sidenav {
+    height: 100%; 
+    width: 20%; 
+    float: left;
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background: #003300;
+    overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+.side_links {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+	margin-top: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #34495E;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+</style>
+
+ <div id="mySidenav" class="sidenav">
+    <div class="side_links">
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+</div>
